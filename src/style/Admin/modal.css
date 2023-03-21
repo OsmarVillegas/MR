@@ -1,0 +1,109 @@
+.ModalProyect-container label {
+    font-size: 1.05em;
+    font-weight: 500;
+    margin-bottom: 0.1em;
+}
+
+.ModalProyect-titulo {
+    text-align: center;
+}
+
+.ModalProyect-form-Nombre, .ModalProyect-form-Description, .ModalProyect-form-FechaIn, .ModalProyect-form-FechaFin, .ModalProyect-form-Integrantes, .ModalProyect-form-Estado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 1em;
+}
+
+.ModalProyect-form-Estado-values label {
+    font-size: 1em;
+    font-weight: 400;
+    margin-left: 1em;
+    margin-right: 0.2em;
+}
+
+.ModalProyect-form-Integrantes {
+    width: 100%;
+}
+
+.ModalProyect-text {
+    width: 50%;
+}
+
+.ModalProyect-form-Integrantes-options , .ModalProyect-form-Integrantes-miembros {
+    width: 49%;
+}
+
+.ModalProyect-form-Integrantes-options {
+    margin-top: 1em;
+    height: 10em;
+    background-color: rgb(247, 247, 247);
+    border: solid black 1px;
+}
+
+.ModalProyect-form-Integrantes-options label {
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0.5em;
+}
+
+.ModalProyect-form-Integrantes-miembros {
+    margin-top: 1em;
+    margin-left: 1%;
+    background-color: rgb(247, 247, 247);
+    border: solid black 1px;
+    height: 8em;
+    overflow-y: scroll;
+}
+
+.ModalProyect-form-Integrantes-miembros label {
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0.5em;
+}
+
+.ModalProyect-form-contenido {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-Integrantes-Drop {
+    margin-left: 1em;
+    background-color: rgba(240, 248, 255, 0);
+    border: 0px;
+}
+
+.form-Integrantes-Drop i {
+    font-size: 1.1em;
+    color: red;
+}
+
+.ModalProyect-form-Btn {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.ModalProyect-form-Btn button {
+    background-color: rgba(255, 0, 0, 0);
+    border: 1px solid rgb(0, 190, 111);
+    padding: 0.2em;
+    border-radius: 0.8rem;
+    letter-spacing: 4px;
+    margin-right: 1em;
+    font-weight: 600;
+    color: rgb(0, 190, 111);
+}
+
+.ModalProyect-form-Btn button:hover {
+    transition: 0.1s;
+    transform: scale(1.05);
+}
+
+.table-container{
+    margin-left: 5px;
+}
+.table-container td {
+  padding: 0 7px;
+}

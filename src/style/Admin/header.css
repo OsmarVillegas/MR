@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.HeaderAdmin-header{
+    position: sticky;
+    height: 6vh;
+    background-color: #4081E2;
+    padding: 0.5em 0.5em 0.5em 0;
+}
+
+.HeaderAdmin-return {
+    position: absolute;
+    font-size: 2em;
+    left: 0;
+    bottom: 25%;
+    margin-left: 0.5em;
+    color: white;
+}
+
+.HeaderAdmin-return:hover {
+    transition: transform 1s ease-in-out, font-size 0.3s 1s;
+    transform:  rotate(360deg);
+    font-size: 2.3em;
+}
+
+
+.HeaderAdmin-Titulo {
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    font-size: 1.9em;
+    font-weight: 400;
+    color: white;
+}

@@ -1,0 +1,54 @@
+.liderContenido{
+    margin: 0 10%;
+}
+
+.liderContenido-contenido {
+    display: flex;
+}
+
+.liderContenido-titulo{
+    margin-top: 1em;
+    margin-left: 0.4em;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+.liderCuadro {
+    position: relative;
+    background-color: #E6E6E6;
+    border-radius: 0.8em;
+    margin-right: 2em;
+    height: 15em;
+    width: 30em;
+    padding: 1em;
+    filter: grayscale(20%);
+    cursor: pointer;
+}
+
+.liderCuadro:hover {
+    transition: 0.5s;
+    transform: scale(1.01);
+}
+
+.liderContenido a {
+    text-decoration: none;
+}
+
+.cuadroHead {
+    color: black;
+    text-decoration: none;
+}
+
+.cuadroCaracteristicas {
+    color: black;
+}
+
+.cuadroPie {
+    position: absolute;
+    height: 15%;
+    width: 100%;
+    background-color: #4081E2;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 0.8em 0.8em;
+}
